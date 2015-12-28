@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="114" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="0.99.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:pt-BR; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+</metadata>
+<history version="64" edit-time="21986" last-saved="1176174259" uid="0772287e-e504-11db-8a80-dd8851187cf8">
+<version id="54" started="1175949439" uid="fbc68b1e-e530-11db-8a80-dd8851187cf8" auto="0" top-xid="6"/>
+<version id="63" started="1176160696" uid="d26347b4-e6f5-11db-8cb6-87be992727af" auto="0" top-xid="60"/>
+<version id="64" started="1176174259" uid="2c9dc212-e710-11db-899d-ee1acd4fedb6" auto="0" top-xid="114"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-style:normal; margin-left:0pt; widows:2; text-align:left; text-indent:0in; text-position:normal; margin-right:0pt; text-decoration:none; bgcolor:transparent; line-height:1.0; font-size:12pt; color:000000; font-variant:normal; font-weight:normal; margin-bottom:0pt; lang:en-US; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="5" props="page-margin-footer:0.5in; page-margin-header:0.5in">
+<p style="Normal" xid="6">Aluno: Fábio C. P. Navarro</p>
+<p style="Normal" xid="61">RA:254371</p>
+<p style="Normal" xid="114"></p>
+<p style="Normal" xid="62" props="text-align:left; dom-dir:ltr">1)Descrever os principais meios físicos:</p>
+<p style="Normal" xid="63" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="64" props="text-align:left; dom-dir:ltr">- Guiados:</p>
+<p style="Normal" xid="65" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="66" props="text-align:left; dom-dir:ltr">    *  Metálicos: </p>
+<p style="Normal" xid="67" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="68" props="text-align:left; dom-dir:ltr">O meio metálico é geralmente representado pelos cabos de cabre, sendo que em sua maioria estes podem ser divididos basicamente em dois grandes grupos, os pares trançados e os cabos coaxiais. Atualmente os pares trançados são maioria no mercado que temos acesso, é só observar toda a rede telefônica e a vasta maioria dos cabos de rede ethernet. A transmissão de informação é feita por energia elétrica que quando comparada com a luz é muito lenta.</p>
+<p style="Normal" xid="69" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="70" props="text-align:left; dom-dir:ltr">Os sinais transmitidos pelos cabos metálicos podem ser analógicos ou digitais, no caso da rede telefônica, o sinal é analógico (frequência de ondas) já no caso dos cabos CAT5 a transmissão de informação é feita por sinais digitais. A razão pelo cabo ser trançado é como sabemos, quando uma corrente passa por um fio, ao redor deste surge um campo magnético e caso houvesse um cabo do lado, este campo induziria uma corrente no cabo ao lado. Ao trançar os cabos os sinais transmitidos anulam geram campos que anulam-se. deixando assim o meio com uma menor taxa de variação de campo magnético, isso ajuda a diminuir a quantidade de erros num sistema como um todo.</p>
+<p style="Normal" xid="71" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="72" props="text-align:left; dom-dir:ltr">Os cabos coaxiais, por não apresentarem uma forma mais inteligente de anulação de campo magnético, apresentam uma blindagem, que eleva o preço mas protege a transmissão de erros provocados por interferência magnética.</p>
+<p style="Normal" xid="73" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="74" props="text-align:left; dom-dir:ltr">    * Fibras: </p>
+<p style="Normal" xid="75" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="76" props="text-align:left; dom-dir:ltr">As fibras ópticas são basicamente constituídas de vidro ou de algum polímero reflexivo, e transmitem somente sinais digitais. Isso acontece pela transmissão por fibras usar luz para transmitir informação, portanto, só é possível saber se a luz está acesa (bit 1) ou apagada (bit 0), além disso o 1 fibra é capaz de transmitir apenas em uma direção, ou RX ou TX, por isso os cabos de fibra óptica são sempre em pares, uma para TX e outro para RX. Mas usar a luz para transmitir dados não traz somente desvantagens, obviamente as taxas de transmissões são absurdas, quando comparadas aos meios de cobre, as transmissões são literalmente na velocidade da luz. As fibras infelizmente por serem feitas de material frágil precisam de uma proteção muito maior que os cabos de cobre, é necessário, num cabo destes, um material que aguente uma carga muito grande, mas mesmo assim, os cabos de fibras ópticas são muito mais finos que os metálicos. Outra vantagem da fibra óptica em cima dos cabos metálicos é a baixa atenuação que a luz tem, com uma fibra óptica é possível transmitir dados por 50km sem repetidores o que em cobre seriam 5km por causa da perda de sinal.</p>
+<p style="Normal" xid="77" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="78" props="text-align:left; dom-dir:ltr">- Abertos:</p>
+<p style="Normal" xid="79" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="80" props="text-align:left; dom-dir:ltr">    * Rádio: </p>
+<p style="Normal" xid="81" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="82" props="text-align:left; dom-dir:ltr">A transmissão de informações por rádio é feito a partir de ondas eletromagnéticas. Como é sabido, essas ondas são omnidirecionais e tem uma taxa de penetração alta em construções , portanto é ideal quando não se quer usar um meio guiado para transmissão de dados. Uma desvantagem porém está na quantidade de interferência que este tipo de transmissão está sujeita, qualquer variação no ambiente pode gerar rajadas de erros, o que faz com que com esse tipo de meio inerentemente existem algoritmos de correção de erros.</p>
+<p style="Normal" xid="83" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="84" props="text-align:left; dom-dir:ltr">    * Laser: </p>
+<p style="Normal" xid="85" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="86" props="text-align:left; dom-dir:ltr">Uma outra opção para transmissão não guiada, é o LASER, porém este precisa de um esquipamento bem mais preciso por ser apenas um único feixe de luz, assim como na fibra óptica, aceso (bit 1) e apagado (bit 0) são usados para transmitir informações digitais, ou seja, qualquer interrupção, reflexão, pode fazer com que a conexão seja desfeita e ambos os pontos ficam desconectados. Outro problema acontece quando ocorre evaporação no ambiente, fenômeno equivalente a miragem quando uma rodovia está muito quente e parece que existe água na pista, e esta cria reflexões no feixe de laser, inviabilizando a transmissão.</p>
+<p style="Normal" xid="87" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="88" props="text-align:left; dom-dir:ltr">2)Exemplificar  as tecnologias de redes que usam cada tipo e padrão IEEE.802</p>
+<p style="Normal" xid="89" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="90" props="text-align:left; dom-dir:ltr">IEEE 802.1™  (Bridging and Management): Ethernet em LANs.</p>
+<p style="Normal" xid="91" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="92" props="text-align:left; dom-dir:ltr">IEEE 802.2™  (Logical Link Control): Ethernet</p>
+<p style="Normal" xid="93" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="94" props="text-align:left; dom-dir:ltr">IEEE 802.3™  (CSMA/CD): CRC</p>
+<p style="Normal" xid="95" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="96" props="text-align:left; dom-dir:ltr">IEEE 802.5™  (TokenRing): Cambridge Ring</p>
+<p style="Normal" xid="97" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="98" props="text-align:left; dom-dir:ltr">IEEE 802.11™(Wireless): Wi-Fi</p>
+<p style="Normal" xid="99" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="100" props="text-align:left; dom-dir:ltr">IEEE 802.15™(Wireless Personal Area): Bluetooth</p>
+<p style="Normal" xid="101" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="102" props="text-align:left; dom-dir:ltr">IEEE 802.16™(BroadBand Wireless): WiMax</p>
+<p style="Normal" xid="103" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="104" props="text-align:left; dom-dir:ltr">IEEE 802.17™(Resilent Packet Rings): Anéis de Fibras</p>
+<p style="Normal" xid="105" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="106" props="text-align:left; dom-dir:ltr">3)Explicar o funcionamento dos MODEMs.</p>
+<p style="Normal" xid="107" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="108" props="text-align:left; dom-dir:ltr">Antes de explicar o funcionamento de um modem é interessante saber a origem da palavra, MODEM é a concatenação da primeira sílaba das palavras "MOdulate" e "DEMulate" o que torna a palavra auto-explicativa. Além disto é interessante saber que a rede telefônica não foi projetada para transmitir informações em forma de bits, por ela podem ser transmitidas apenas sinais de ondas de 300 a 3400Hz, que são as frequências ouvidas pelos humanos.</p>
+<p style="Normal" xid="109" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="110" props="text-align:left; dom-dir:ltr">Geralmente utilizado para transportar informações entre dois ou mais computadores por uma linha telefônica, o modem tem exatamente a função de transportar bits de uma forma analógica, ou seja, o modem exerce duas funções, de uma lado da conexão transformar informação digital em som audível para transmiti-la pela linha telefônica, e de outro lado da conexão "ouvir" os sons gerados e transformar novamente em sinais digitais novamente.</p>
+<p style="Normal" xid="111" props="text-align:left; dom-dir:ltr"></p>
+<p style="Normal" xid="112" props="text-align:left; dom-dir:ltr">Para que os modems possam fazer isso, eles seguem um protocolo, ou seja, uma cadeia de bits sempre gerará o mesmo ruído, assim, modems de diversas maquinas podem conectar entre si sem problemas de incompatibilidade.</p>
+<p style="Normal" xid="113" props="text-align:left; dom-dir:ltr"></p>
+</section>
+</abiword>

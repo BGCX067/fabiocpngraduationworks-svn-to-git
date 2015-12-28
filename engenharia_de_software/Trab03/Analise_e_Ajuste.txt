@@ -1,0 +1,39 @@
+
+    Arquivos internos:
+      <nome>:       *<chave>,<campo>,<campo>,...
+      Hóspedes:        *docidentificacao,nome, endereco, cidade, estado, telefone, email, data nascimento, (2)nome dos pais
+      itens:           *codigoitem, descrição, valor, categoria
+      categoria:      *codigocat, nome
+      funcionarios:      *CPF, nome, endereço, cidade, estado, telefone, data nascimento
+      tipoacomodação: *codigo, descriçao, quatidade, preço, numero adultas, numero crianças
+      acomodações:    *número, andar, tipo de acomodações
+      reserva:        *codigoreserva, data entrada, hora entrada, data saida, hora saida, hospede, tipo acomodação, acomodação, nomes/idades, valor, taxa de multa, cartão de crédito, funcionario,desconto
+      consumo:        data, funcionario, acomodação, quantidade, item
+    -------------------------------------------------------------------------------------------------------------------------------------------
+    Entradas
+      3xHospodes (10)
+      3xItens (4)
+      3xFuncionarios (7)
+      3xTipo Acomodações (6)
+      3xAcomodações (3)
+      1xReserva (11)
+      1xEntrada (11)
+      1xSaida (7)
+      3xConsumo (5)
+    ------------------------------------------------------------------------------------------------------------------------------------------
+    Saidas
+      <nome>(campos)(arquivos)
+      Gastos Saida Hóspede(12)(3)
+      Faturamento(9)(3)
+      faturas diarias(8)(3)
+      faturas atrasadas(5)(3)
+    ------------------------------------------------------------------------------------------------------------------------------------------
+    Consultas
+      <nome>(campos)(arquivos)
+      pessoas hospedadas(5)(2)
+      reservas(4)(2)
+      estadias (4)(2)
+      disponibilidade de acomodações(7)(2)
+    ------------------------------------------------------------------------------------------------------------------------------------------
+
+   Respostas para as perguntas do fator de Ajuste = 5+2+0+2+5+2+2+2+1+1+5+5+0+5

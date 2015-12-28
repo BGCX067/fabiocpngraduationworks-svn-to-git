@@ -1,0 +1,128 @@
+{\rtf1\ansi\ansicpg1252\deff0
+{\fonttbl
+{\f0\fnil\fcharset0\fprq0\fttruetype Arial;}
+{\f1\fnil\fcharset0\fprq0\fttruetype NULL;}
+{\f2\fnil\fcharset0\fprq0\fttruetype Times New Roman;}
+{\f3\fnil\fcharset0\fprq0\fttruetype Courier;}
+{\f4\fnil\fcharset0\fprq0\fttruetype Dingbats;}
+{\f5\fnil\fcharset0\fprq0\fttruetype Symbol;}
+{\f6\fnil\fcharset0\fprq0\fttruetype Bitstream Vera Sans;}
+{\f7\fnil\fcharset0\fprq0\fttruetype Courier New;}}
+{\colortbl
+\red0\green0\blue0;
+\red255\green255\blue255;}
+{\stylesheet
+{\s24\sl240\slmult1\sb118\f3\fs20\i\lang1046\sbasedon28\snext24 Legenda1;}
+{\*\cs13\f2\fs20\lang0 Fonte parág. padrão;}
+{\s55\sl240\slmult1\sb118\f3\fs20\i\lang1046\sbasedon28\snext55 WW-Legenda1;}
+{\*\cs48\sl240\slmult1\f2\fs20\lang0 WW-Absatz-Standardschriftart;}
+{\*\cs21\keepn\sl240\slmult1\f2\fs20\ul\lang0\sbasedon12 HiperlinkVisitado;}
+{\*\cs15\keepn\sl240\slmult1\f2\fs24\lang1033\sbasedon30 Footnote Text;}
+{\s73\sl240\slmult1\f3\fs24\sbasedon28 ÃƒÂndice;}
+{\*\cs59\sl240\slmult1\f2\fs20 WW-SÃƒÂ­mbolos de NumeraÃƒÂ§ÃƒÂ£o;}
+{\s43\sl240\slmult1\f2\fs20\lang0\snext43 Tabela normal;}
+{\s65\sl240\slmult1\f3\fs24\sbasedon28 WW-Ãndice11;}
+{\*\cs58\sl240\slmult1\f2\fs20 WW-SÃ­mbolos de NumeraÃ§Ã£o1;}
+{\s63\sl240\slmult1\f3\fs24\sbasedon28 WW-Ãndice;}
+{\s46\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon34\snext28 Upper Case List;}
+{\*\cs52\sl240\slmult1\f2\fs20\lang0 WW-Caracteres de Nota de Fim1;}
+{\s16\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon28\snext28 Hand List;}
+{\s74\f3\fs24\lang1046\sbasedon28\snext74 Índice;}
+{\s34\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon28\snext28 Numbered List;}
+{\s56\sl240\slmult1\sb118\f3\fs20\i\lang1046\sbasedon28\snext56 WW-Legenda11;}
+{\s28\sl240\slmult1\f3\fs24\lang1046\snext28 Normal;}
+{\s72\sl240\slmult1\f3\fs24\sbasedon28 Ãndice;}
+{\s37\sl240\slmult1\f2\fs20\lang0\snext37 Sem lista;}
+{\s5\sl240\slmult1\tx429\tx1584\f3\fs24\lang1046\sbasedon31\snext29 Chapter Heading;}
+{\*\cs61\f2\fs20\lang0 WW-Símbolos de Numeração;}
+{\s64\sl240\slmult1\f3\fs24\sbasedon28\snext14 WW-Ãndice1;}
+{\s32\sl240\slmult1\tx429\f3\fs24\lang1046\sbasedon18\snext29 Numbered Heading 2;}
+{\s33\sl240\slmult1\tx429\f3\fs24\lang1046\sbasedon19\snext29 Numbered Heading 3;}
+{\*\cs57\sl240\slmult1\f2\fs20 WW-SÃ­mbolos de NumeraÃ§Ã£o;}
+{\s66\sl240\slmult1\f3\fs24\sbasedon28 WW-ÃƒÂndice;}
+{\s69\f3\fs24\lang1046\sbasedon28\snext69 WW-Índice;}
+{\s6\sl240\slmult1\f3\fs24\lang1046\sbasedon28\snext6 Corpo de texto;}
+{\s44\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon28\snext28 Tick List;}
+{\s26\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon34\snext28 Lower Case List;}
+{\s25\sl240\slmult1\f3\fs24\lang1046\sbasedon6\snext25 Lista;}
+{\*\cs11\sl240\slmult1\f2\fs20 Fonte parÃ¡g. padrÃ£o;}
+{\*\cs49\sl240\slmult1\f2\fs20\lang0 WW-Absatz-Standardschriftart1;}
+{\s2\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon28\snext28 Box List;}
+{\*\cs10\keepn\sl240\slmult1\f2\fs24\lang1033\sbasedon30 Endnote Text;}
+{\s20\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon28\snext28 Heart List;}
+{\*\cs53\sl240\slmult1\f2\fs20\lang0 WW-Caracteres de Nota de Fim11;}
+{\*\cs60\sl240\slmult1\f2\fs20 WW-SÃƒÂ­mbolos de NumeraÃƒÂ§ÃƒÂ£o1;}
+{\s3\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon28\snext28 Bullet List;}
+{\*\cs51\sl240\slmult1\f2\fs20\lang0 WW-Caracteres de Nota de Fim;}
+{\s38\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon28\snext28 Square List;}
+{\s23\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon28\snext28 Implies List;}
+{\s70\f3\fs24\lang1046\sbasedon28\snext14 WW-Índice1;}
+{\s31\sl240\slmult1\tx429\f3\fs24\lang1046\sbasedon17\snext29 Numbered Heading 1;}
+{\*\cs9\keepn\sl240\slmult1\f2\fs20\super\lang0 Endnote Reference;}
+{\*\cs4\sl240\slmult1\f2\fs20\lang0 Caracteres de Nota de Fim;}
+{\s54\sl240\slmult1\sb118\f3\fs20\i\lang1046\sbasedon28\snext54 WW-Legenda;}
+{\s8\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon28\snext28 Diamond List;}
+{\s71\f3\fs24\lang1046\sbasedon28\snext71 WW-Índice11;}
+{\*\cs22\keepn\sl240\slmult1\f2\fs20\ul\lang0 Hyperlink;}
+{\*\cs14\keepn\sl240\slmult1\f2\fs20\super\lang0 Footnote Reference;}
+{\s36\sl240\slmult1\tx429\tx1584\f3\fs24\lang1046\sbasedon31\snext29 Section Heading;}
+{\s35\sl240\slmult1\f7\fs24\lang1046\sbasedon29\snext28 Plain Text;}
+{\s18\sl240\slmult1\sb440\f6\fs28\b\lang1046\sbasedon29\snext29 Heading 2;}
+{\*\cs50\sl240\slmult1\f2\fs20\lang0 WW-Absatz-Standardschriftart11;}
+{\s68\sl240\slmult1\f3\fs24\sbasedon28 WW-ÃƒÂndice11;}
+{\s67\sl240\slmult1\f3\fs24\sbasedon28\snext14 WW-ÃƒÂndice1;}
+{\s27\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon29\snext28 Lower Roman List;}
+{\s47\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon34\snext28 Upper Roman List;}
+{\s39\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon28\snext28 Star List;}
+{\*\cs12\sl240\slmult1\f2\fs20 Fonte parÃƒÂ¡g. padrÃƒÂ£o;}
+{\s17\sl240\slmult1\sb440\sa60\f6\fs34\b\lang1046\sbasedon29\snext29 Heading 1;}
+{\s45\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon28\snext28 Triangle List;}
+{\s19\sl240\slmult1\sb440\sa60\f6\fs24\b\lang1046\sbasedon29\snext29 Heading 3;}
+{\s7\sl240\slmult1\fi-430\li720\f3\fs24\lang1046\sbasedon28\snext28 Dashed List;}
+{\s29\sl240\slmult1\f2\fs24\lang1033\sbasedon28\snext28 Normal1;}
+{\*\cs30\keepn\sl240\slmult1\f2\fs24\lang1033 Normal2;}
+{\*\cs40\sl240\slmult1\f2\fs20 SÃ­mbolos de NumeraÃ§Ã£o;}
+{\*\cs62\f2\fs20\lang0 WW-Símbolos de Numeração1;}
+{\s1\sl240\slmult1\li1440\ri1440\sa118\f3\fs24\lang1046\sbasedon29\snext28 Block Text;}
+{\*\cs42\f2\fs20\lang0 Símbolos de Numeração;}
+{\*\cs41\sl240\slmult1\f2\fs20 SÃƒÂ­mbolos de NumeraÃƒÂ§ÃƒÂ£o;}}
+{\*\listtable
+{\list\listtemplateid1031\listsimple{\listlevel\levelnfc0\levelstartat1\levelspace0\levelfollow0\fi-282\li282{\leveltext\'02\'00.;}{\levelnumbers\'01;}}\listid1000}}
+{\*\listoverridetable
+{\listoverride\listoverridecount0\listid1000\levelnfc0\levelstartat1\levelspace0\levelfollow0\fi-282\li282{\leveltext\'02\'00.;}{\levelnumbers\'01;}\ls1}}
+
+\kerning0\cf0\ftnbj\fet2\ftnstart1\ftnnar\aftnnar\ftnstart1\ftnrestart\ftnrstpg\aftnstart1\aftnrestart\aendnotes\aenddoc\facingp\titlepg{\info}\deftab720\viewkind1\paperw12240\paperh15840\margl1440\margr1440\widowctl
+\sectd\sbknone\colsx360\pgncont\ltrsect
+\pard\plain\ltrpar\qj\s29\sl360\slmult1\itap0{\f0\fs24\b\lang1046{\*\listtag0}\abinodiroverride\ltrch INTRODU\'c7\'c2O}
+\par\pard\plain\ltrpar\qj\s29\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab Douglas Noel Adams, escritor de fic\'e7\'e3o cient\'edfica, nasceu em Cambridge, Inglaterra, no ano de 1952, o que o levava a afirmar que era o DNA original, pois a mol\'e9cula DNA s\'f3 viria a ser descoberta em 1953, tamb\'e9m em Cambridge. L\'e1 teve boa parte de sua educa\'e7\'e3o, trabalhou no Grupo de teatro da Universidade de Cambridge, onde concluiu seus estudos em Ingl\'eas. Depois de sua gradua\'e7\'e3o trabalhou em r\'e1dios (escrevendo scripts para a BBC Londres) e programas de televis\'e3o (escrevendo epis\'f3dios da s\'e9rie Doctor Who). Em 1978 criou o roteiro do que viria a ser a s\'e9rie radiof\'f4nica \uc1\u8220\'93The Hitchhiker's Guide to the Galaxy", que em 1980 foi transformada em livro e que o levou \'e0 lista de mais vendidos da Inglaterra por v\'e1rios meses. }
+\par\pard\plain\ltrpar\qj\s29\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab Essa hist\'f3ria parte de uma situa\'e7\'e3o cotidiana descrevendo como Arthur Dent acorda e tenta evitar que sua casa seja destru\'edda para a constru\'e7\'e3o de um desvio, para logo depois descobrir que seu melhor amigo, Ford Prefect, \'e9 um alien\'edgena de um planeta na estrela Betelgeuse II que escreve para o Guia do Mochileiro das Gal\'e1xias, o mais extraordin\'e1rio dos livros publicados pelas grandes editoras de Ursa Menor, e que a Terra ser\'e1 destru\'edda para a constru\'e7\'e3o de um desvio hiperespacial. A partir da\'ed Arthur e Ford fogem da Terra pouco antes de sua destrui\'e7\'e3o pegando carona com a Frota de Demoli\'e7\'e3o Espacial Vogon e passam a viver aventuras pela gal\'e1xia. Estes acontecimentos, recheados de embasamento t\'e9cnico-cient\'edfico e do \'e1cido humor brit\'e2nico, s\'e3o muitas vezes explicados de forma simples e fazendo analogias interessantes, com uma mistura de costumes, como o h\'e1bito de Arthur tomar seu ch\'e1, com eventos inimagin\'e1veis, como ser jogado no espa\'e7o e em menos de 30 segundos ser resgatado por um nave espacial.}
+\par\pard\plain\ltrpar\qj\s29\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab Este livro, que tem duas edi\'e7\'f5es brasileiras (Editora Brasiliense (1986) e Editora Sextante (2004)) foi alicerce para a discuss\'e3o sobre letramento apresentada nesse trabalho, onde \'e9 feita uma an\'e1lise sobre as interpreta\'e7\'f5es realizadas por diferentes n\'edveis de letramento e ainda de como o autor exp\'f5e defini\'e7\'f5es de car\'e1ter complexo de um modo que pessoas sem conhecimento espec\'edficos possam compreend\'ea-las.}
+\par\pard\plain\ltrpar\qj\s29\sl360\slmult1\itap0{\f0\fs24\b\lang1046{\*\listtag0}\abinodiroverride\ltrch BASE TE\'d3RICA}
+\par\pard\plain\ltrpar\qj\s29\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab O tema da pesquisa, rela\'e7\'f5es entre letramento e a obra "Guia do Mochileiro das Gal\'e1xias", dificilmente \'e9 abordado pela m\'eddia devido \'e0 sua especificidade. O pr\'f3prio tema letramento n\'e3o \'e9 discutido explicitamente na obra, mas \'e9 importante para o melhor entendimento do livro. \'c9 isso que foi discutido neste trabalho, como o n\'edvel de letramento influencia a compreens\'e3o do livro. Como base te\'f3rica foram utilizados a revista Sapiens, que realizou uma an\'e1lise sobre a obra e publicou um conto anterior \'e0 hist\'f3ria do Guia mas que apresenta alguns personagens, chamado \uc1\u8220\'93O jovem Zaphod joga seguro\uc1\u8221\'94, o texto digital "Don't Panic! - Douglas Adams & The Hitchhiker\uc1\u8217\'92s Guide to the Galaxy", uma biografia do autor escrita por Neil Gaiman e at\'e9 o momento n\'e3o publicada no Brasil, o guia de leitura \uc1\u8220\'93A Guide to the Hitchhiker's Guide to the Galaxy\uc1\u8221\'94, que faz uma breve descri\'e7\'e3o de cada cap\'edtulo, al\'e9m de comentar caracter\'edsticas principais dos personagens e a pr\'f3pria obra. Outros textos foram encontrados, por\'e9m devido a sua superficialidade na abordagem do tema foram descartados.}
+\par\pard\plain\ltrpar\qj\s29\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab Como refer\'eancia sobre o autor, sobre a obra e alguns dos fatos e teorias, a enciclop\'e9dia digital wikipedia (en.wikipedia.com) foi utilizada. Para a defini\'e7\'e3o do termo letramento e entendimento de seu significado, foram utilizados os textos dados em aula, principalmente \uc1\u8220\'93Letramento e Alfabetiza\'e7\'e3o\uc1\u8221\'94 (TFOUNI, L), unidos aos conhecimentos ministrados em aula.}
+\par\pard\plain\ltrpar\qj\s29\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}
+\par}\pard\plain\ltrpar\qj\s29\sl360\slmult1\itap0{\f0\fs24\b\lang1046{\*\listtag0}\abinodiroverride\ltrch Metodologia de Pesquisa}
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\b\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab }{\f0\fs24\lang1046{\*\listtag0}Tendo em vista o relacionamento entre letramento e a obra de Douglas Adams, inicialmente fez-se uma mobiliza\'e7\'e3o para definir a interpreta\'e7\'e3o do termo letramento, utilizando o documento \uc1\u8220\'93Letramento e Alfabetiza\'e7\'e3o\uc1\u8221\'94 e o conte\'fado exposto em aula, e chegamos a uma defini\'e7\'e3o geral, por\'e9m suficientemente s\'f3lida para ser utilizada como alicerce da discuss\'e3o. A partir desta defini\'e7\'e3o foi poss\'edvel procurar e selecionar quais id\'e9ias do livro}{\f0\fs24\b\lang1046{\*\listtag0} }{\f0\fs24\lang1046{\*\listtag0}poderiam ser relacionadas com o letramento agora entendido. Foram selecionados trechos que permitem definir que:}
+\par{\listtext\pard\qj\fi-282\li282 1.	}\pard\plain{\ltrpar\qj\fi-282\li282\s28\f3\fs24\lang1046{\*\listtag0}{\*\abilist\abilistid1000\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont Times New Roman}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-282\li282\ls1\ilvl0\sl360\slmult1\itap0\tx282{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch Com diferentes n\'edveis de letramento s\'e3o feitas interpreta\'e7\'f5es distintas, sejam elas corretas, incompletas ou err\'f4neas.}
+\par}{\listtext\pard\qj\fi-282\li282 2.	}\pard\plain{\ltrpar\qj\fi-282\li282\s28\f3\fs24\lang1046{\*\listtag0}{\*\abilist\abilistid1000\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont Times New Roman}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-282\li282\ls1\ilvl0\sl360\slmult1\itap0\tx282{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch O livro contribui para o aumento do n\'edvel de letramento do leitor, pois apresenta explica\'e7\'f5es e refer\'eancias que estimulam o racioc\'ednio.}
+\par}\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab Estas duas defini\'e7\'f5es sintetizam a id\'e9ia a ser passada, e a partir delas ser\'e3o citados exemplos e explica\'e7\'f5es te\'f3ricas que demonstram porque chegou-se a essas defini\'e7\'f5es.}
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab Como ponto de refer\'eancia usou-se o documento \uc1\u8220\'93A Guide to The Hitchhiker\uc1\u8217\'92s Guide to the Galaxy\uc1\u8221\'94 que funcionou com guia de refer\'eancia r\'e1pido, indicando em qual cap\'edtulo do livro estaria a informa\'e7\'e3o desejada. Para refer\'eancias sobre o autor foi utilizado o documento digital "Don't Panic! - Douglas Adams & The Hitchhiker\uc1\u8217\'92s Guide to the Galaxy".}
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}
+\par}\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch Discuss\'e3o}
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch \tab }{\f0\fs24\lang1046{\*\listtag0}Seguindo a defini\'e7\'e3o de Leda Tfouni em \uc1\u8220\'93Letramento e Alfabetiza\'e7\'e3o\uc1\u8221\'94, letramento \'e9 o processo de aquisi\'e7\'e3o de um sistema escrito por uma sociedade. Expandindo essa defini\'e7\'e3o para englobar as discuss\'f5es realizadas em aula pode-se considerar como o letramento age no indiv\'edduo, tornando-o mais consciente de seu papel na sociedade quando desenvolve sua capacidade atrav\'e9s do letramento, seja expondo sua opini\'e3o, lendo livros ou informando-se sobre o que acontece em seu meio. Com o letramento definido resta citar os exemplos retirados do livro e mostrar como eles auxiliam no aumento do n\'edvel de letramento do leitor e estimulam aqueles que t\'eam um n\'edvel de letramento superior. }
+\par\pard\plain\ltrpar\qj\fi720\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch Um exemplo de como Adams consegue explicar teorias cient\'edficas complexas de modo simples ao leitor aparece no cap\'edtulo 10, onde Adams explica o funcionamento da m\'e1quina de improbabilidade infinita, pe\'e7a b\'e1sica do motor da nave Cora\'e7\'e3o de Ouro, que transporta os protagonistas da hist\'f3ria pela gal\'e1xia. Ele cita um \uc1\u8220\'93produtor de movimentos brownianos intensos\uc1\u8221\'94, por exemplo, \uc1\u8220\'93uma boa x\'edcara de ch\'e1 quente\uc1\u8221\'94. O movimento Browniano \'e9 um efeito descoberto por Robert Brown em 1827 enquanto estudava o movimento de gr\'e3os de p\'f3len e outros objetos pequenos em suspens\'e3o na \'e1gua e que mais tarde foi descrito em termos matem\'e1ticos e se tornou um modelo capaz de descrever desde movimenta\'e7\'f5es no mercado de a\'e7\'f5es at\'e9 a evolu\'e7\'e3o de caracter\'edsticas f\'edsicas em f\'f3sseis. O efeito diz basicamente que, se a teoria cin\'e9tica dos flu\'eddos estiver certa, ent\'e3o as mol\'e9culas de um flu\'eddo (\'e1gua, por exemplo) ir\'e3o se mover aleatoriamente e assim uma pequena part\'edcula (por exemplo, o p\'f3len) ir\'e1 receber um n\'famero aleat\'f3rio de impactos de for\'e7a aleat\'f3ria e de dire\'e7\'f5es aleat\'f3rias em qualquer per\'edodo curto de tempo. Esse bombardeio aleat\'f3rio pelas mol\'e9culas do flu\'eddo causam um movimento na pequena part\'edcula que \'e9 exatamente o descrito por Brown. Quanto maior a temperatura do flu\'eddo, mais as mol\'e9culas se agitar\'e3o e maior ser\'e1 o n\'famero de impactos sofridos pela part\'edcula. A partir desses impactos sofridos pode-se deduzir algumas propriedades do flu\'eddo, por exemplo. Adams, quando cita a x\'edcara de ch\'e1 quente, d\'e1 um exemplo simples e que facilita a compreens\'e3o de um conceito f\'edsico e matem\'e1tico que n\'e3o \'e9 simples.}
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab Outro exemplo ocorre no cap\'edtulo 24, onde Arthur e Slartibartfast entram na c\'e2mara onde os magratheanos constru\'edam os planetas que lhes eram encomendados e Arthur tem uma no\'e7\'e3o \uc1\u8220\'93mais ou menos clara\uc1\u8221\'94 do que \'e9 o infinito. Adams passa a descrever o infinito, e exemplifica: \uc1\u8220\'93O infinito \'e9 uma coisa chata, nos dois sentidos da palavra. Quem olha para o c\'e9u \'e0 noite est\'e1 olhando para o infinito; a dist\'e2ncia \'e9 incompreens\'edvel, e portanto sem significado\uc1\u8221\'94. A tal c\'e2mara \'e9 o interior de uma esfera de cinco milh\'f5es quil\'f4metros de de di\'e2metro, \uc1\u8220\'93inundada por uma luz inimagin\'e1vel\uc1\u8221\'94. O conceito de infinito \'e9 muito utilizado na matem\'e1tica, principalmente em \'e1reas como o c\'e1lculo. Adams brinca mais uma vez com o conceito no cap\'edtulo 19 do segundo livro da s\'e9rie, \uc1\u8220\'93O Restaurante no fim do Universo\uc1\u8221\'94, onde ele discorre sobre dados estat\'edsticos do universo. O efeito c\'f4mico criado pela afirma\'e7\'e3o de que a popula\'e7\'e3o do universo \'e9 zero deve-se ao conceito de limite.  }
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab Uma passagem muito curiosa esta no cap\'edtulo 25, onde Majikthise e Vroomfondel, dois fil\'f3sofos da Universidade de Cruxwan, invadem a sala onde localiza-se o terminal do Pensador Profundo e tentam, de qualquer maneira, desligar o computador. Fazem isso porque exigem a demarca\'e7\'e3o de \'e1reas: as m\'e1quinas devem fazer contas, enquanto eles cuidam das verdades eternas. \'c9 uma passagem sat\'edrica e \'e1cida sobre as rela\'e7\'f5es industriais, que na \'e9poca em que Adams escreveu o livro estavam tumultuadas na Inglaterra e acabaram causando o Inverno do Descontentamento, ocorrido em 1978-1979, onde aconteceram v\'e1rios protestos e que mais tarde levaram \'e0 derrota do Partido Trabalhista ingl\'eas para o Partido Conservador, liderado por Margaret Thatcher.}
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab Um exemplo de como a leitura tamb\'e9m pode gerar conclus\'f5es err\'f4neas ocorre logo no primeiro cap\'edtulo, onde \'e9 citado o fato de o Sr. Prosser ser descendente de Genghis Khan. Existe uma pesquisa cient\'edfica de 2003 que afirma que cerca de 16 milh\'f5es de pessoas s\'e3o descendentes diretos do conquistador mongol, e h\'e1 inclusive um bar na Inglaterra que serve refei\'e7\'f5es gratuitamente para quem provar que \'e9 descendente do grande l\'edder mongol, basta dispor-se a fazer um exame de sangue, que pode comprovar a descend\'eancia. Algu\'e9m que por ventura tenha lido o livro depois de essa pesquisa ter sido divulgada e n\'e3o saiba que ele \'e9 antigo pode acabar fazendo uma conclus\'e3o errada, mas n\'e3o deixa de ser curioso o acerto de Adams, j\'e1 que no universo ficcional criado por ele coincid\'eancias, \'e0s vezes at\'e9 bizarras, s\'e3o muito comuns. Veja a analogia entre as destrui\'e7\'f5es da casa de Arthur e da Terra.}
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab Uma outra \'e1rea em que Adams tamb\'e9m premia leitores letrados \'e9 a m\'fasica. A primeira refer\'eancia \'e9 o nome da nave em que os protagonistas viajam, a Cora\'e7\'e3o de Ouro. \'c9 o mesmo nome de uma m\'fasica, de 1972, composta por Neil Young. Al\'e9m disso, no cap\'edtulo 32 Frankie e Benjy, dois seres pan-dimensionais hiperinteligentes cuja manifesta\'e7\'e3o em nossa dimens\'e3o tem a forma de camundongos, tentam achar uma Quest\'e3o Fundamental da Vida, o Universo e Tudo o Mais que condiza com a resposta fornecida pelo Pensador Profundo, \uc1\u8220\'9342\uc1\u8221\'94. Entre outras propostas descartadas como \uc1\u8220\'93quanto \'e9 seis vezes sete?\uc1\u8221\'94, por ser muito \'f3bvia, Frankie sugere a quest\'e3o \uc1\u8220\'93Quantos caminhos \'e9 preciso caminhar?\uc1\u8221\'94, que \'e9 o primeiro verso da can\'e7\'e3o folk \uc1\u8220\'93Blowin\uc1\u8217\'92 In The Wind\uc1\u8221\'94, de Bob Dylan. E, para completar, a id\'e9ia de um restaurante no fim do universo, que conduz a hist\'f3ria no segundo livro, vem de uma m\'fasica do Procol Harum chamada \uc1\u8220\'93Grand Hotel\uc1\u8221\'94, que descreve um restaurante opulento e que, no seu fim, tem uma longa sess\'e3o orquestral que termina em um grande cl\'edmax. Adams n\'e3o entendeu inicialmente esse cl\'edmax final e concluiu que provavelmente era apenas o universo chegando ao fim. Essas cita\'e7\'f5es musicais se devem ao fato de que Adams adora m\'fasica e \'e9 guitarrista, tendo inclusive tocado algumas vezes com o Pink Floyd.}
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab Esses exemplos s\'e3o suficientes, apesar de abordarem pequenas passagens do livro, para ratificarem a id\'e9ia defendida nesse trabalho. Adams envolveu a f\'edsica, a matem\'e1tica, a m\'fasica, a hist\'f3ria e as ci\'eancias sociais, al\'e9m de outras \'e1reas nesse livro, de tal modo que mesmo aquele leitor que n\'e3o tiver um base de conhecimento t\'e3o s\'f3lida e um n\'edvel de letramento t\'e3o alto pode ler e aprender com ele. }
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch  }
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\b\lang1046{\*\listtag0}\abinodiroverride\ltrch Conclus\'e3o}
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch \tab Visto que Douglas Noel Adams exp\'f5e de maneira invej\'e1vel novas id\'e9ias ou explica defini\'e7\'f5es j\'e1 existentes, fica claro que o leitura de sua obra contribui para que um indiv\'edduo posso ter uma melhor interpreta\'e7\'e3o do ambiente que o cerca. Algumas das id\'e9ias in\'e9ditas existentes na obra podem causar algum tipo de interpreta\'e7\'e3o distorcida da que queria ser transmitida, caso esta pessoa n\'e3o possua um letramento suficiente para realmente compreender o sentido real de algumas passagens, por\'e9m mesmo pessoas com esse n\'edvel de letramento podem ser beneficiadas pelas analogias criadas pelo autor, que tornam conceitos abordados em \'e1reas espec\'edficas, como a difini\'e7\'e3o de movimentos }{\f0\fs24\lang1046{\*\listtag0}brownianos, }{\f0\fs24\lang1046{\*\listtag0}em conceitos cotidianos fornecendo uma interpreta\'e7\'e3o a mais para problemas do dia a dia, ou seja, aumentando o seu letramento.}
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}
+\par}\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\b\lang1046{\*\listtag0}\abinodiroverride\ltrch Bibliografia}
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch Exemplo errado: }
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\field{\*\fldinst {\f3\fs24\lang1046{\*\listtag0} HYPERLINK "http://scatoday.net/node/view/2388"}}{\*\fldrslt{\f3\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch http://scatoday.net/node/view/2388}}}{\f0\fs24\lang1046{\*\listtag0} \uc1\u8211\'96 restaurante de londres que oferece testes de dna e refei\'e7\'f5es gr\'e1tis para descendentes de genghis khan}
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\field{\*\fldinst {\f3\fs24\lang1046{\*\listtag0} HYPERLINK "http://www.upi.com/view.cfm?StoryID=20030205-100301-1566r"}}{\*\fldrslt{\f0\fs24\lang1046{\*\listtag0}\abinodiroverride\ltrch http://www.upi.com/view.cfm?StoryID=20030205-100301-1566r}}}{\f0\fs24\lang1046{\*\listtag0} pesquisa de 2003}
+\par\pard\plain\ltrpar\qj\s28\sl360\slmult1\itap0{\f0\fs24\lang1046{\*\listtag0}
+\par}\pard\plain\ltrpar\ql\sl240\slmult1\itap0{\f3\fs24\lang1046{\*\listtag0}}}

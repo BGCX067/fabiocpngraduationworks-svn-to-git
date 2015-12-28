@@ -1,0 +1,37 @@
+%um padrao de entrada 
+
+%calcular a soma para uma entrada
+for j = 1:10
+    u(j) = bias(j);
+end
+
+for j = 1:10 
+    for i = 1:63
+        u(j) = u(j) + w(i)*x(i);
+    end
+end
+
+% calculo da saida
+for j = 1:10
+    y(j) = 1;
+    if u(j) < 0 
+        y(j) = 0;
+    end
+end
+% calculo do erro
+for j = 1:10
+    e(j) = d(j) - y(j);
+end
+
+% ajuste dos pesos
+for j = 1:10
+    for i = 1:63
+        w(i) = w(i) + alfa*e(j)*x(i);
+    end
+end
+
+for j = 1:10
+    bias(j) = bias(j) + alfa*e(j);
+end
+
+

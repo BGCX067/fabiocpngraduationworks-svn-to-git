@@ -1,0 +1,15 @@
+Descrição de Caso de uso
+Altera Clientes
+
+curso normal
+1-) O Sistema recebe o RG do cliente
+2-) O sistema verifica que o cadastro do cliente existe.
+3-) O Sistema estancia o objeto cliente.
+4-) O Sistema recebe os novos dados do cliente.
+4-) O sistema remove o resgistro do cliente.
+5-) Encerra caso de uso.
+
+curso alternativo
+2-) O sistema verifica que o cadastro do cliente não existe.
+3-) O sistema envia mensagem de erro.
+4-) Abandona caso de uso.

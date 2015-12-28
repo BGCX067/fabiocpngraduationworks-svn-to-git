@@ -1,0 +1,15 @@
+
+%um padrao de entrada 
+
+%calcular a soma para uma entrada
+u = bias;
+for i = 1:63
+    u = u + w(i)*x(i);
+end
+% calculo da saida
+y = 1;
+if u < 0 
+    y = 0;
+end
+
+

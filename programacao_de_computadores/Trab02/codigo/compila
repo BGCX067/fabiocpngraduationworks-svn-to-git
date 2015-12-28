@@ -1,0 +1,2 @@
+g++ -c quaternion.cpp
+g++ main.cpp quaternion.o -o exemplo

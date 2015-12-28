@@ -1,0 +1,15 @@
+Descrição de Caso de Uso
+Cadastra Clientes
+
+curso normal
+1-) O Sistema recebe o RG do cliente
+2-) O Sistema verifica que o cadastro do cliente não existe.
+3-) O Sistema estancia o objeto cliente.
+4-) O Sistema recebe as informações necessárias para o cadastro do cliente.
+5-) O Sistema envia mensagem de confirmação.
+6-) O Sistema encerra caso de uso.
+
+curso alternativo
+2-) O Sistema verifica que o cadastro deste clinente já existe.
+3-) O Sistema envia mensagem de erro.
+4-) Abandona caso de uso.

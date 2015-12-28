@@ -1,0 +1,86 @@
+
+fprintf ('\n padrao  cl    padrao  cl    padrao  cl    padrao  cl    padrao  cl    padrao  cl    padrao  cl   ')
+
+x = A1;
+d = 1 ;
+passo1;
+
+x = B1;
+d = 0 ;
+passo1;
+
+x = C1;
+d = 0;
+passo1;
+
+x = D1;
+d = 0;
+passo1;
+
+x = E1;
+d = 0;
+passo1;
+
+x = J1;
+d = 0;
+passo1;
+
+x = K1;
+d = 0;
+passo1;
+
+x = A2;
+d = 1;
+passo1;
+
+x = B2;
+d = 0;
+passo1;
+
+x = C2;
+d = 0;
+passo1;
+
+x = D2;
+d = 0;
+passo1;
+
+x = E2;
+d = 0;
+passo1;
+
+x = J2;
+d = 0;
+passo1;
+
+x = K2;
+d = 0;
+passo1;
+
+x = A3;
+d = 1;
+passo1;
+
+x = B3;
+d = 0;
+passo1;
+
+x = C2;
+d = 0;
+passo1;
+
+x = D2;
+d = 0;
+passo1;
+
+x = E2;
+d = 0;
+passo1;
+
+x = J2;
+d = 0;
+passo1;
+
+x = K2;
+d = 0;
+pa

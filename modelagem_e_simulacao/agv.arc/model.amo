@@ -1,0 +1,10 @@
+VERSION 11.1 BUILD 1949.32
+UNITS Feet Seconds
+RNSET 0
+DRAWPOS minx -87 maxx -7.78184547244095 miny 7.56252706692913 maxy 58.9187467191601 minz 0 maxz 35.8653182414698 trx 0 try 0
+MOVESYS name agv1
+MOVESYS name conv
+PROCSYS name agv~
+CONTROL snaplen 30 Days counts 6 autorep reset
+CONTROL snaplen 30 Days counts 6 autorep
+CONTROL snaplen 15 Hours counts 1 autorep reset

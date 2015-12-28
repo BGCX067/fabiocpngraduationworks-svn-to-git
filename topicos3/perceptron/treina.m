@@ -1,0 +1,6 @@
+
+%treina para 100 epocas
+
+for i = 1:100
+        epoca;
+end

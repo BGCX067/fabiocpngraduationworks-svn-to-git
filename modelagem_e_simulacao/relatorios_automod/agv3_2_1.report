@@ -1,0 +1,1625 @@
+*** AutoMod 11.1 ***
+Model agv
+Statistics at Absolute Clock = 30:00:00:00.00, Relative Clock = 30:00:00:00.00
+CPU time: Absolute: 32.265 sec, Relative: 32.265 sec
+
+Statistics for Process System "agv"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00       --     1     0     -- 2591995.00         --
+P_P1                    1812     4     4.64       --     6     0     --    6642.19         --
+P_P2                    2718     6     5.66       --     7     0     --    5397.69         --
+P_P3                    4530     5     6.91       --    10     0     --    3956.06         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00 Infinite     1     0     -- 2591995.00         --
+P_P1                    1812     4     4.64 Infinite     6     0     --    6642.19         --
+P_P2                    2718     6     5.66 Infinite     7     0     --    5397.69         --
+P_P3                    4530     5     6.91 Infinite    10     0     --    3956.06         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                   9061    13    15.07 Infinite    20     0     --    4309.81         --
+QE                      9048     1     1.00        1     1     0  1.000     286.47    4024.20
+QF                      9045     0     0.00        1     1     0  0.000       0.00       0.00
+qE_Maq1                 4522     1     0.91        1     1     0  0.915     524.41       0.00
+qE_Maq2                 6333     0     0.49        1     1     0  0.486     198.83       0.00
+qE_Maq3                 7238     1     0.56        1     1     0  0.556     199.00       0.00
+q1                      1808     0     0.01        1     1     0  0.010      15.00       0.00
+q2                      2712     0     0.02        1     1     0  0.016      15.00       0.00
+q3                      4525     0     0.03        1     1     0  0.026      15.00       0.00
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+r_Maquina1              4521     0     0.27        1     1     0  0.272     156.01       0.00     Up   ----      
+r_Maquina2              6333     0     0.32        1     1     0  0.325     132.87       0.00     Up   ----      
+r_Maquina3              7238     1     0.36        1     1     0  0.356     127.44       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              0
+stream_r_Maquina1_1  0
+stream_r_Maquina2_1  0
+stream_r_Maquina3_1  0
+stream_L_incial_1    0
+
+Statistics for Path Mover System "agv.agv1"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+caminho1               27138     1     0.49 Infinite     2     0     --      46.68         --
+caminho2               27137     0     0.21 Infinite     1     0     --      19.90         --
+caminho3                   3     0     0.00 Infinite     3     0     --     204.58         --
+caminho4               27138     0     0.21 Infinite     1     0     --      19.90         --
+caminho6               27137     0     0.05 Infinite     1     0     --       4.68         --
+caminho7                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho8                   3     0     0.00 Infinite     1     0     --       4.68         --
+caminho9               27138     0     0.05 Infinite     1     0     --       4.68         --
+caminho10              27137     2     2.15 Infinite     3     0     --     205.02         --
+caminho11              27137     0     0.05 Infinite     1     0     --       4.68         --
+caminho12              27135     0     0.05 Infinite     1     0     --       4.68         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+cp_Maq2                27137     0     0.15 Infinite     2     0     --      14.67         --
+cp_Maq3                27137     0     0.17 Infinite     2     0     --      15.77         --
+cp_Saisa               27137     0     0.18 Infinite     1     0     --      17.47         --
+cp_Entrada             27138     0     0.25 Infinite     2     0     --      24.03         --
+cp_Maq1                27138     1     0.18 Infinite     2     0     --      17.49         --
+cpStart                    3     0     0.00 Infinite     1     0     --     115.93         --
+cp_Park                27137     2     2.11 Infinite     3     0     --     201.59         --
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.091   9047   25.97    0.165   9047   47.38    0.424   9046  121.36    0.320
+   0.102   9046   29.15    0.163   9046   46.73    0.486   9046  139.28    0.249
+   0.107   9045   30.75    0.156   9045   44.59    0.375   9045  107.35    0.362
+All DefVehicle:
+   0.100  27138   28.62    0.161  27138   46.23    0.428  27137  122.66    0.311
+
+The Average Capacity Lost Due To Congestion is 29.9 Percent
+Of Total Capacity Which is 0.9 Vehicles
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        Deliver Setdown        4.41 cp_Maq1              cp_Maq1              Load 9048 (L_p2)
+DefVehicle(2)        Move                  24.01 cp_Saisa             cp_Park              Empty          
+DefVehicle(3)        Idle                  47.75 cp_Park              cp_Park              Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle        25.39          47.75           4.41
+
+Statistics for Conveyor System "agv.conv"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+
+
+*** AutoMod 11.1 ***
+Model agv
+Statistics at Absolute Clock = 60:00:00:00.00, Relative Clock = 30:00:00:00.00
+CPU time: Absolute: 59.796 sec, Relative: 27.531 sec
+
+Statistics for Process System "agv"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00       --     1     1     -- 2592000.00         --
+P_P1                    1814     5     4.64       --     6     4     --    6635.63         --
+P_P2                    2721     6     5.66       --     7     4     --    5391.75         --
+P_P3                    4530     9     6.91       --    10     5     --    3955.99         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00 Infinite     1     1     -- 2592000.00         --
+P_P1                    1814     5     4.64 Infinite     6     4     --    6635.63         --
+P_P2                    2721     6     5.66 Infinite     7     4     --    5391.75         --
+P_P3                    4530     9     6.91 Infinite    10     5     --    3955.99         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                   9063    18    15.07 Infinite    20    10     --    4308.89         --
+QE                      9046     1     1.00        1     1     0  1.000     286.54    4022.90
+QF                      9045     0     0.00        1     1     0  0.000       0.00       0.00
+qE_Maq1                 4524     1     0.92        1     1     0  0.915     524.41       0.00
+qE_Maq2                 6331     1     0.49        1     1     0  0.486     198.81       0.00
+qE_Maq3                 7236     0     0.56        1     1     0  0.556     199.10       0.00
+q1                      1809     0     0.01        1     1     0  0.010      15.00       0.00
+q2                      2715     0     0.02        1     1     0  0.016      15.00       0.00
+q3                      4521     0     0.03        1     1     0  0.026      15.00       0.00
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+r_Maquina1              4524     0     0.27        1     1     0  0.272     155.99       0.00     Up   ----      
+r_Maquina2              6331     1     0.32        1     1     0  0.324     132.85       0.00     Up   ----      
+r_Maquina3              7236     0     0.36        1     1     0  0.356     127.53       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              0
+stream_r_Maquina1_1  0
+stream_r_Maquina2_1  0
+stream_r_Maquina3_1  0
+stream_L_incial_1    0
+
+Statistics for Path Mover System "agv.agv1"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+caminho1               27135     0     0.49 Infinite     2     0     --      46.68         --
+caminho2               27135     0     0.21 Infinite     1     0     --      19.90         --
+caminho3                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho4               27134     0     0.21 Infinite     1     0     --      19.90         --
+caminho6               27135     0     0.05 Infinite     1     0     --       4.68         --
+caminho7                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho8                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho9               27134     0     0.05 Infinite     1     0     --       4.68         --
+caminho10              27137     3     2.15 Infinite     3     1     --     205.05         --
+caminho11              27135     0     0.05 Infinite     1     0     --       4.68         --
+caminho12              27134     0     0.05 Infinite     1     0     --       4.68         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+cp_Maq2                27135     0     0.15 Infinite     2     0     --      14.67         --
+cp_Maq3                27135     0     0.17 Infinite     2     0     --      15.77         --
+cp_Saisa               27135     0     0.18 Infinite     1     0     --      17.47         --
+cp_Entrada             27134     0     0.25 Infinite     1     0     --      24.03         --
+cp_Maq1                27135     0     0.18 Infinite     2     0     --      17.49         --
+cpStart                    0     0     0.00 Infinite     0     0     --       0.00         --
+cp_Park                27137     3     2.11 Infinite     3     0     --     201.62         --
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.091   9045   25.97    0.165   9044   47.38    0.424   9045  121.39    0.320
+   0.102   9045   29.15    0.163   9045   46.73    0.486   9046  139.34    0.249
+   0.107   9045   30.75    0.156   9045   44.59    0.375   9045  107.35    0.363
+All DefVehicle:
+   0.100  27135   28.62    0.161  27134   46.23    0.428  27136  122.69    0.311
+
+The Average Capacity Lost Due To Congestion is 29.9 Percent
+Of Total Capacity Which is 0.9 Vehicles
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        Idle                 115.34 cp_Park              cp_Park              Empty          
+DefVehicle(2)        Move                  35.60 cp_Saisa             cp_Park              Empty          
+DefVehicle(3)        Move                 135.00 cp_Saisa             cp_Park              Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle        95.31         135.00          35.60
+
+Statistics for Conveyor System "agv.conv"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+
+
+*** AutoMod 11.1 ***
+Model agv
+Statistics at Absolute Clock = 90:00:00:00.00, Relative Clock = 30:00:00:00.00
+CPU time: Absolute: 86.562 sec, Relative: 26.766 sec
+
+Statistics for Process System "agv"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00       --     1     1     -- 2592000.00         --
+P_P1                    1813     4     4.64       --     6     4     --    6639.14         --
+P_P2                    2718     5     5.66       --     7     4     --    5397.67         --
+P_P3                    4529     5     6.91       --    10     5     --    3956.42         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00 Infinite     1     1     -- 2592000.00         --
+P_P1                    1813     4     4.64 Infinite     6     4     --    6639.14         --
+P_P2                    2718     5     5.66 Infinite     7     4     --    5397.67         --
+P_P3                    4529     5     6.91 Infinite    10     5     --    3956.42         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                   9058    13    15.07 Infinite    20    10     --    4310.98         --
+QE                      9046     1     1.00        1     1     0  1.000     286.54    4024.83
+QF                      9046     0     0.00        1     1     0  0.000       0.00       0.00
+qE_Maq1                 4523     0     0.92        1     1     0  0.915     524.54       0.00
+qE_Maq2                 6333     0     0.49        1     1     0  0.486     198.80       0.00
+qE_Maq3                 7237     0     0.56        1     1     0  0.556     199.05       0.00
+q1                      1809     0     0.01        1     1     0  0.010      15.00       0.00
+q2                      2713     0     0.02        1     1     0  0.016      15.00       0.00
+q3                      4524     0     0.03        1     1     0  0.026      15.00       0.00
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+r_Maquina1              4522     0     0.27        1     1     0  0.272     156.01       0.00     Up   ----      
+r_Maquina2              6333     0     0.32        1     1     0  0.325     132.84       0.00     Up   ----      
+r_Maquina3              7237     0     0.36        1     1     0  0.356     127.48       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              0
+stream_r_Maquina1_1  0
+stream_r_Maquina2_1  0
+stream_r_Maquina3_1  0
+stream_L_incial_1    0
+
+Statistics for Path Mover System "agv.agv1"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+caminho1               27138     1     0.49 Infinite     2     0     --      46.68         --
+caminho2               27137     0     0.21 Infinite     1     0     --      19.90         --
+caminho3                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho4               27138     0     0.21 Infinite     1     0     --      19.90         --
+caminho6               27137     0     0.05 Infinite     1     0     --       4.68         --
+caminho7                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho8                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho9               27138     0     0.05 Infinite     1     0     --       4.68         --
+caminho10              27140     2     2.15 Infinite     3     1     --     205.02         --
+caminho11              27137     0     0.05 Infinite     1     0     --       4.68         --
+caminho12              27138     0     0.05 Infinite     1     0     --       4.68         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+cp_Maq2                27138     0     0.15 Infinite     2     0     --      14.67         --
+cp_Maq3                27138     1     0.17 Infinite     2     0     --      15.77         --
+cp_Saisa               27137     0     0.18 Infinite     1     0     --      17.47         --
+cp_Entrada             27139     1     0.25 Infinite     1     0     --      24.03         --
+cp_Maq1                27138     0     0.18 Infinite     2     0     --      17.49         --
+cpStart                    0     0     0.00 Infinite     0     0     --       0.00         --
+cp_Park                27140     1     2.11 Infinite     3     0     --     201.59         --
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.091   9046   25.97    0.165   9047   47.38    0.424   9046  121.35    0.320
+   0.102   9046   29.15    0.163   9046   46.73    0.486   9046  139.31    0.249
+   0.107   9046   30.75    0.156   9046   44.59    0.375   9047  107.34    0.362
+All DefVehicle:
+   0.100  27138   28.62    0.161  27139   46.23    0.428  27139  122.67    0.311
+
+The Average Capacity Lost Due To Congestion is 29.9 Percent
+Of Total Capacity Which is 0.9 Vehicles
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        Retrieve               7.39 cp_Park              cp_Entrada           Empty          
+DefVehicle(2)        Deliver                7.43 cp_Maq2              cp_Maq3              Load 27138 (L_p2)
+DefVehicle(3)        Idle                   2.23 cp_Park              cp_Park              Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle         5.69           7.43           2.23
+
+Statistics for Conveyor System "agv.conv"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+
+
+*** AutoMod 11.1 ***
+Model agv
+Statistics at Absolute Clock = 120:00:00:00.00, Relative Clock = 30:00:00:00.00
+CPU time: Absolute: 113.796 sec, Relative: 27.234 sec
+
+Statistics for Process System "agv"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00       --     1     1     -- 2592000.00         --
+P_P1                    1814     5     4.64       --     6     4     --    6635.62         --
+P_P2                    2720     6     5.66       --     7     4     --    5393.54         --
+P_P3                    4530     8     6.91       --    10     5     --    3956.07         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00 Infinite     1     1     -- 2592000.00         --
+P_P1                    1814     5     4.64 Infinite     6     4     --    6635.62         --
+P_P2                    2720     6     5.66 Infinite     7     4     --    5393.54         --
+P_P3                    4530     8     6.91 Infinite    10     5     --    3956.07         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                   9063    17    15.07 Infinite    20    10     --    4308.86         --
+QE                      9047     1     1.00        1     1     0  1.000     286.50    4022.86
+QF                      9045     0     0.00        1     1     0  0.000       0.00       0.00
+qE_Maq1                 4523     1     0.92        1     1     0  0.915     524.53       0.00
+qE_Maq2                 6332     0     0.49        1     1     0  0.486     198.82       0.00
+qE_Maq3                 7236     0     0.56        1     1     0  0.556     199.08       0.00
+q1                      1809     0     0.01        1     1     0  0.010      15.00       0.00
+q2                      2714     0     0.02        1     1     0  0.016      15.00       0.00
+q3                      4522     0     0.03        1     1     0  0.026      15.00       0.00
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+r_Maquina1              4523     0     0.27        1     1     0  0.272     155.99       0.00     Up   ----      
+r_Maquina2              6332     0     0.32        1     1     0  0.325     132.86       0.00     Up   ----      
+r_Maquina3              7236     0     0.36        1     1     0  0.356     127.51       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              0
+stream_r_Maquina1_1  0
+stream_r_Maquina2_1  0
+stream_r_Maquina3_1  0
+stream_L_incial_1    0
+
+Statistics for Path Mover System "agv.agv1"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+caminho1               27137     1     0.49 Infinite     2     0     --      46.68         --
+caminho2               27136     0     0.21 Infinite     1     0     --      19.90         --
+caminho3                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho4               27136     0     0.21 Infinite     1     0     --      19.90         --
+caminho6               27136     0     0.05 Infinite     1     0     --       4.68         --
+caminho7                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho8                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho9               27136     0     0.05 Infinite     1     0     --       4.68         --
+caminho10              27138     2     2.15 Infinite     3     1     --     205.04         --
+caminho11              27136     0     0.05 Infinite     1     0     --       4.68         --
+caminho12              27136     0     0.05 Infinite     1     0     --       4.68         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+cp_Maq2                27136     0     0.15 Infinite     2     0     --      14.67         --
+cp_Maq3                27137     1     0.17 Infinite     2     0     --      15.77         --
+cp_Saisa               27136     0     0.18 Infinite     1     0     --      17.47         --
+cp_Entrada             27137     1     0.25 Infinite     1     0     --      24.03         --
+cp_Maq1                27136     0     0.18 Infinite     2     0     --      17.49         --
+cpStart                    0     0     0.00 Infinite     0     0     --       0.00         --
+cp_Park                27137     1     2.11 Infinite     3     0     --     201.61         --
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.091   9046   25.97    0.165   9046   47.38    0.424   9045  121.37    0.320
+   0.102   9046   29.15    0.163   9045   46.73    0.486   9046  139.33    0.249
+   0.107   9045   30.75    0.156   9046   44.58    0.375   9045  107.36    0.362
+All DefVehicle:
+   0.100  27137   28.62    0.161  27137   46.23    0.428  27136  122.69    0.311
+
+The Average Capacity Lost Due To Congestion is 29.9 Percent
+Of Total Capacity Which is 0.9 Vehicles
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        Deliver                3.03 cp_Maq2              cp_Maq3              Load 36184 (L_p3)
+DefVehicle(2)        Move                 104.59 cp_Saisa             cp_Park              Empty          
+DefVehicle(3)        Retrieve               3.02 cp_Park              cp_Entrada           Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle        36.88         104.59           3.02
+
+Statistics for Conveyor System "agv.conv"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+
+
+*** AutoMod 11.1 ***
+Model agv
+Statistics at Absolute Clock = 150:00:00:00.00, Relative Clock = 30:00:00:00.00
+CPU time: Absolute: 142.281 sec, Relative: 28.469 sec
+
+Statistics for Process System "agv"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00       --     1     1     -- 2592000.00         --
+P_P1                    1813     4     4.64       --     6     4     --    6639.32         --
+P_P2                    2718     5     5.66       --     7     4     --    5397.92         --
+P_P3                    4528     5     6.91       --    10     5     --    3957.39         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00 Infinite     1     1     -- 2592000.00         --
+P_P1                    1813     4     4.64 Infinite     6     4     --    6639.32         --
+P_P2                    2718     5     5.66 Infinite     7     4     --    5397.92         --
+P_P3                    4528     5     6.91 Infinite    10     5     --    3957.39         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                   9057    12    15.07 Infinite    20    10     --    4311.63         --
+QE                      9046     1     1.00        1     1     0  1.000     286.54    4025.45
+QF                      9045     0     0.00        1     1     0  0.000       0.00       0.00
+qE_Maq1                 4524     1     0.92        1     1     0  0.915     524.41       0.00
+qE_Maq2                 6331     0     0.49        1     1     0  0.486     198.82       0.00
+qE_Maq3                 7237     0     0.56        1     1     0  0.556     199.07       0.00
+q1                      1809     0     0.01        1     1     0  0.010      15.00       0.00
+q2                      2714     1     0.02        1     1     0  0.016      15.00       0.00
+q3                      4523     0     0.03        1     1     0  0.026      15.00       0.00
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+r_Maquina1              4523     0     0.27        1     1     0  0.272     156.02       0.00     Up   ----      
+r_Maquina2              6331     0     0.32        1     1     0  0.325     132.86       0.00     Up   ----      
+r_Maquina3              7237     0     0.36        1     1     0  0.356     127.50       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              0
+stream_r_Maquina1_1  0
+stream_r_Maquina2_1  0
+stream_r_Maquina3_1  0
+stream_L_incial_1    0
+
+Statistics for Path Mover System "agv.agv1"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+caminho1               27137     0     0.49 Infinite     2     0     --      46.68         --
+caminho2               27137     1     0.21 Infinite     1     0     --      19.90         --
+caminho3                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho4               27136     0     0.21 Infinite     1     0     --      19.90         --
+caminho6               27137     0     0.05 Infinite     1     0     --       4.68         --
+caminho7                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho8                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho9               27136     0     0.05 Infinite     1     0     --       4.68         --
+caminho10              27138     2     2.15 Infinite     3     1     --     205.04         --
+caminho11              27136     0     0.05 Infinite     1     0     --       4.68         --
+caminho12              27136     0     0.05 Infinite     1     0     --       4.68         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+cp_Maq2                27136     0     0.15 Infinite     2     0     --      14.67         --
+cp_Maq3                27137     0     0.17 Infinite     2     0     --      15.77         --
+cp_Saisa               27137     1     0.18 Infinite     1     0     --      17.47         --
+cp_Entrada             27137     1     0.25 Infinite     1     0     --      24.03         --
+cp_Maq1                27136     0     0.18 Infinite     2     0     --      17.49         --
+cpStart                    0     0     0.00 Infinite     0     0     --       0.00         --
+cp_Park                27137     1     2.11 Infinite     3     0     --     201.61         --
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.091   9046   25.97    0.165   9045   47.39    0.424   9046  121.38    0.320
+   0.102   9045   29.15    0.163   9046   46.73    0.486   9046  139.32    0.249
+   0.107   9046   30.75    0.156   9046   44.59    0.375   9045  107.35    0.362
+All DefVehicle:
+   0.100  27137   28.62    0.161  27137   46.23    0.428  27137  122.68    0.311
+
+The Average Capacity Lost Due To Congestion is 29.9 Percent
+Of Total Capacity Which is 0.9 Vehicles
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        Idle                   2.26 cp_Park              cp_Park              Empty          
+DefVehicle(2)        Retrieve               7.42 cp_Park              cp_Maq1              Empty          
+DefVehicle(3)        Deliver Setdown        7.52 cp_Saisa             cp_Saisa             Load 45228 (L_p2)
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle         5.73           7.52           2.26
+
+Statistics for Conveyor System "agv.conv"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+
+
+*** AutoMod 11.1 ***
+Model agv
+Statistics at Absolute Clock = 180:00:00:00.00, Relative Clock = 30:00:00:00.00
+CPU time: Absolute: 169.765 sec, Relative: 27.484 sec
+
+Statistics for Process System "agv"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00       --     1     1     -- 2592000.00         --
+P_P1                    1814     5     4.64       --     6     4     --    6635.67         --
+P_P2                    2720     6     5.66       --     7     4     --    5393.53         --
+P_P3                    4530     7     6.91       --    10     5     --    3956.12         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00 Infinite     1     1     -- 2592000.00         --
+P_P1                    1814     5     4.64 Infinite     6     4     --    6635.67         --
+P_P2                    2720     6     5.66 Infinite     7     4     --    5393.53         --
+P_P3                    4530     7     6.91 Infinite    10     5     --    3956.12         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                   9062    15    15.07 Infinite    20    10     --    4309.34         --
+QE                      9048     1     1.00        1     1     0  1.000     286.47    4023.31
+QF                      9046     0     0.00        1     1     0  0.000       0.00       0.00
+qE_Maq1                 4523     1     0.92        1     1     0  0.915     524.54       0.00
+qE_Maq2                 6334     1     0.49        1     1     0  0.486     198.80       0.00
+qE_Maq3                 7237     1     0.56        1     1     0  0.556     199.04       0.00
+q1                      1809     0     0.01        1     1     0  0.010      15.00       0.00
+q2                      2714     0     0.02        1     1     0  0.016      15.00       0.00
+q3                      4523     0     0.03        1     1     0  0.026      15.00       0.00
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+r_Maquina1              4522     0     0.27        1     1     0  0.272     155.98       0.00     Up   ----      
+r_Maquina2              6334     1     0.32        1     1     0  0.325     132.84       0.00     Up   ----      
+r_Maquina3              7237     1     0.36        1     1     0  0.356     127.48       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              0
+stream_r_Maquina1_1  0
+stream_r_Maquina2_1  0
+stream_r_Maquina3_1  0
+stream_L_incial_1    0
+
+Statistics for Path Mover System "agv.agv1"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+caminho1               27138     1     0.49 Infinite     2     0     --      46.68         --
+caminho2               27138     0     0.21 Infinite     1     0     --      19.90         --
+caminho3                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho4               27138     0     0.21 Infinite     1     0     --      19.90         --
+caminho6               27137     0     0.05 Infinite     1     0     --       4.68         --
+caminho7                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho8                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho9               27138     0     0.05 Infinite     1     0     --       4.68         --
+caminho10              27140     2     2.15 Infinite     3     1     --     205.02         --
+caminho11              27138     0     0.05 Infinite     1     0     --       4.68         --
+caminho12              27138     0     0.05 Infinite     1     0     --       4.68         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+cp_Maq2                27138     0     0.15 Infinite     2     0     --      14.67         --
+cp_Maq3                27138     1     0.17 Infinite     2     0     --      15.77         --
+cp_Saisa               27138     0     0.18 Infinite     1     0     --      17.47         --
+cp_Entrada             27138     0     0.25 Infinite     1     0     --      24.03         --
+cp_Maq1                27138     0     0.18 Infinite     2     0     --      17.49         --
+cpStart                    0     0     0.00 Infinite     0     0     --       0.00         --
+cp_Park                27139     2     2.11 Infinite     3     0     --     201.59         --
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.091   9046   25.97    0.165   9046   47.39    0.423   9046  121.34    0.321
+   0.102   9046   29.15    0.163   9046   46.73    0.486   9046  139.32    0.249
+   0.107   9047   30.75    0.156   9046   44.59    0.375   9047  107.35    0.362
+All DefVehicle:
+   0.100  27139   28.62    0.161  27138   46.23    0.428  27139  122.67    0.311
+
+The Average Capacity Lost Due To Congestion is 29.9 Percent
+Of Total Capacity Which is 0.9 Vehicles
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        Move                  48.55 cp_Saisa             cp_Park              Empty          
+DefVehicle(2)        Idle                  66.86 cp_Park              cp_Park              Empty          
+DefVehicle(3)        Move                   3.05 cp_Maq2              cp_Park              Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle        39.49          66.86           3.05
+
+Statistics for Conveyor System "agv.conv"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+
+
+*** AutoMod 11.1 ***
+Model agv
+Statistics at Absolute Clock = 210:00:00:00.00, Relative Clock = 30:00:00:00.00
+CPU time: Absolute: 198.937 sec, Relative: 29.156 sec
+
+Statistics for Process System "agv"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00       --     1     1     -- 2592000.00         --
+P_P1                    1813     4     4.64       --     6     4     --    6639.12         --
+P_P2                    2718     4     5.66       --     7     4     --    5397.65         --
+P_P3                    4527     5     6.91       --    10     5     --    3958.06         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00 Infinite     1     1     -- 2592000.00         --
+P_P1                    1813     4     4.64 Infinite     6     4     --    6639.12         --
+P_P2                    2718     4     5.66 Infinite     7     4     --    5397.65         --
+P_P3                    4527     5     6.91 Infinite    10     5     --    3958.06         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                   9055    10    15.07 Infinite    20    10     --    4312.38         --
+QE                      9046     1     1.00        1     1     0  1.000     286.54    4026.13
+QF                      9045     0     0.00        1     1     0  0.000       0.00       0.00
+qE_Maq1                 4526     1     0.92        1     1     0  0.915     524.16       0.00
+qE_Maq2                 6331     1     0.49        1     1     0  0.486     198.79       0.00
+qE_Maq3                 7237     1     0.56        1     1     0  0.556     199.08       0.00
+q1                      1809     0     0.01        1     1     0  0.010      15.00       0.00
+q2                      2714     0     0.02        1     1     0  0.016      15.00       0.00
+q3                      4522     0     0.03        1     1     0  0.026      15.00       0.00
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+r_Maquina1              4525     1     0.27        1     1     0  0.272     155.98       0.00     Up   ----      
+r_Maquina2              6331     1     0.32        1     1     0  0.324     132.84       0.00     Up   ----      
+r_Maquina3              7237     0     0.36        1     1     0  0.356     127.52       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              0
+stream_r_Maquina1_1  0
+stream_r_Maquina2_1  0
+stream_r_Maquina3_1  0
+stream_L_incial_1    0
+
+Statistics for Path Mover System "agv.agv1"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+caminho1               27138     2     0.49 Infinite     2     0     --      46.68         --
+caminho2               27136     0     0.21 Infinite     1     0     --      19.90         --
+caminho3                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho4               27137     0     0.21 Infinite     1     0     --      19.90         --
+caminho6               27136     0     0.05 Infinite     1     0     --       4.68         --
+caminho7                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho8                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho9               27137     0     0.05 Infinite     1     0     --       4.68         --
+caminho10              27138     1     2.15 Infinite     3     1     --     205.04         --
+caminho11              27136     0     0.05 Infinite     1     0     --       4.68         --
+caminho12              27137     0     0.05 Infinite     1     0     --       4.68         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+cp_Maq2                27137     1     0.15 Infinite     2     0     --      14.66         --
+cp_Maq3                27137     1     0.17 Infinite     2     0     --      15.77         --
+cp_Saisa               27136     0     0.18 Infinite     1     0     --      17.47         --
+cp_Entrada             27137     0     0.25 Infinite     1     0     --      24.03         --
+cp_Maq1                27137     0     0.18 Infinite     2     0     --      17.49         --
+cpStart                    0     0     0.00 Infinite     0     0     --       0.00         --
+cp_Park                27138     1     2.11 Infinite     3     0     --     201.61         --
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.091   9045   25.97    0.165   9046   47.38    0.424   9046  121.38    0.320
+   0.102   9046   29.15    0.163   9046   46.73    0.486   9046  139.32    0.249
+   0.107   9045   30.75    0.156   9045   44.59    0.375   9046  107.33    0.363
+All DefVehicle:
+   0.100  27136   28.62    0.161  27137   46.23    0.428  27138  122.68    0.311
+
+The Average Capacity Lost Due To Congestion is 29.9 Percent
+Of Total Capacity Which is 0.9 Vehicles
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        Retrieve              31.88 cp_Maq1              cp_Maq3              Empty          
+DefVehicle(2)        Move                   8.26 cp_Maq2              cp_Park              Empty          
+DefVehicle(3)        Idle                  10.17 cp_Park              cp_Park              Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle        16.77          31.88           8.26
+
+Statistics for Conveyor System "agv.conv"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+
+
+*** AutoMod 11.1 ***
+Model agv
+Statistics at Absolute Clock = 240:00:00:00.00, Relative Clock = 60:00:00:00.00
+CPU time: Absolute: 228.39 sec, Relative: 58.609 sec
+
+Statistics for Process System "agv"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00       --     1     1     -- 5184000.00         --
+P_P1                    3623     5     4.64       --     6     4     --    6644.80         --
+P_P2                    5433     6     5.66       --     7     4     --    5400.67         --
+P_P3                    9052     6     6.91       --    10     5     --    3959.31         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00 Infinite     1     1     -- 5184000.00         --
+P_P1                    3623     5     4.64 Infinite     6     4     --    6644.80         --
+P_P2                    5433     6     5.66 Infinite     7     4     --    5400.67         --
+P_P3                    9052     6     6.91 Infinite    10     5     --    3959.31         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                  18105    14    15.07 Infinite    20    10     --    4313.78         --
+QE                     18092     1     1.00        1     1     0  1.000     286.54    4027.45
+QF                     18091     0     0.00        1     1     0  0.000       0.00       0.00
+qE_Maq1                 9047     1     0.92        1     1     0  0.915     524.47       0.00
+qE_Maq2                12665     1     0.49        1     1     0  0.486     198.81       0.00
+qE_Maq3                14474     1     0.56        1     1     0  0.556     199.05       0.00
+q1                      3618     0     0.01        1     1     0  0.010      15.00       0.00
+q2                      5427     0     0.02        1     1     0  0.016      15.00       0.00
+q3                      9046     0     0.03        1     1     0  0.026      15.00       0.00
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+r_Maquina1              9046     1     0.27        1     1     0  0.272     155.99       0.00     Up   ----      
+r_Maquina2             12665     1     0.32        1     1     0  0.325     132.85       0.00     Up   ----      
+r_Maquina3             14474     0     0.36        1     1     0  0.356     127.49       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              0
+stream_r_Maquina1_1  0
+stream_r_Maquina2_1  0
+stream_r_Maquina3_1  0
+stream_L_incial_1    0
+
+Statistics for Path Mover System "agv.agv1"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+caminho1               54276     1     0.49 Infinite     2     0     --      46.68         --
+caminho2               54275     0     0.21 Infinite     1     0     --      19.90         --
+caminho3                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho4               54275     0     0.21 Infinite     1     0     --      19.90         --
+caminho6               54275     0     0.05 Infinite     1     0     --       4.68         --
+caminho7                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho8                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho9               54275     0     0.05 Infinite     1     0     --       4.68         --
+caminho10              54277     2     2.15 Infinite     3     1     --     205.03         --
+caminho11              54275     1     0.05 Infinite     1     0     --       4.68         --
+caminho12              54275     0     0.05 Infinite     1     0     --       4.68         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+cp_Maq2                54275     0     0.15 Infinite     2     0     --      14.67         --
+cp_Maq3                54276     1     0.17 Infinite     2     0     --      15.77         --
+cp_Saisa               54275     0     0.18 Infinite     1     0     --      17.47         --
+cp_Entrada             54275     0     0.25 Infinite     1     0     --      24.03         --
+cp_Maq1                54275     0     0.18 Infinite     2     0     --      17.49         --
+cpStart                    0     0     0.00 Infinite     0     0     --       0.00         --
+cp_Park                54277     2     2.11 Infinite     3     0     --     201.60         --
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.091  18091   25.97    0.165  18092   47.39    0.424  18092  121.35    0.320
+   0.102  18092   29.15    0.163  18092   46.73    0.486  18092  139.32    0.249
+   0.107  18091   30.75    0.156  18091   44.59    0.375  18092  107.35    0.362
+All DefVehicle:
+   0.100  54274   28.62    0.161  54275   46.24    0.428  54276  122.68    0.311
+
+The Average Capacity Lost Due To Congestion is 29.9 Percent
+Of Total Capacity Which is 0.9 Vehicles
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        Retrieve Pickup       14.95 cp_Maq3              cp_Maq3              Load 72366 (L_p3)
+DefVehicle(2)        Move                  31.85 cp_Saisa             cp_Park              Empty          
+DefVehicle(3)        Idle                  33.80 cp_Park              cp_Park              Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle        26.87          33.80          14.95
+
+Statistics for Conveyor System "agv.conv"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+
+
+*** AutoMod 11.1 ***
+Model agv
+Statistics at Absolute Clock = 270:00:00:00.00, Relative Clock = 90:00:00:00.00
+CPU time: Absolute: 258.218 sec, Relative: 88.437 sec
+
+Statistics for Process System "agv"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00       --     1     1     -- 7776000.00         --
+P_P1                    5433     5     4.64       --     6     4     --    6646.56         --
+P_P2                    8148     6     5.66       --     7     4     --    5401.62         --
+P_P3                   13577    10     6.91       --    10     5     --    3959.53         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00 Infinite     1     1     -- 7776000.00         --
+P_P1                    5433     5     4.64 Infinite     6     4     --    6646.56         --
+P_P2                    8148     6     5.66 Infinite     7     4     --    5401.62         --
+P_P3                   13577    10     6.91 Infinite    10     5     --    3959.53         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                  27155    19    15.07 Infinite    20    10     --    4314.12         --
+QE                     27137     1     1.00        1     1     0  1.000     286.55    4027.77
+QF                     27137     0     0.00        1     1     0  0.000       0.00       0.00
+qE_Maq1                13571     1     0.92        1     1     0  0.915     524.45       0.00
+qE_Maq2                18995     1     0.49        1     1     0  0.486     198.81       0.00
+qE_Maq3                21709     0     0.56        1     1     0  0.556     199.07       0.00
+q1                      5428     0     0.01        1     1     0  0.010      15.00       0.00
+q2                      8142     0     0.02        1     1     0  0.016      15.00       0.00
+q3                     13567     0     0.03        1     1     0  0.026      15.00       0.00
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+r_Maquina1             13570     0     0.27        1     1     0  0.272     156.00       0.00     Up   ----      
+r_Maquina2             18995     0     0.32        1     1     0  0.325     132.85       0.00     Up   ----      
+r_Maquina3             21709     0     0.36        1     1     0  0.356     127.51       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              0
+stream_r_Maquina1_1  0
+stream_r_Maquina2_1  0
+stream_r_Maquina3_1  0
+stream_L_incial_1    0
+
+Statistics for Path Mover System "agv.agv1"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+caminho1               81410     0     0.49 Infinite     2     0     --      46.68         --
+caminho2               81410     0     0.21 Infinite     1     0     --      19.90         --
+caminho3                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho4               81409     0     0.21 Infinite     1     0     --      19.90         --
+caminho6               81410     0     0.05 Infinite     1     0     --       4.68         --
+caminho7                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho8                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho9               81409     0     0.05 Infinite     1     0     --       4.68         --
+caminho10              81412     3     2.15 Infinite     3     1     --     205.04         --
+caminho11              81410     0     0.05 Infinite     1     0     --       4.68         --
+caminho12              81410     1     0.05 Infinite     1     0     --       4.68         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+cp_Maq2                81409     0     0.15 Infinite     2     0     --      14.67         --
+cp_Maq3                81410     0     0.17 Infinite     2     0     --      15.77         --
+cp_Saisa               81410     0     0.18 Infinite     1     0     --      17.47         --
+cp_Entrada             81410     1     0.25 Infinite     1     0     --      24.03         --
+cp_Maq1                81409     0     0.18 Infinite     2     0     --      17.49         --
+cpStart                    0     0     0.00 Infinite     0     0     --       0.00         --
+cp_Park                81412     2     2.11 Infinite     3     0     --     201.61         --
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.091  27136   25.97    0.165  27137   47.38    0.424  27137  121.37    0.320
+   0.102  27137   29.15    0.163  27137   46.73    0.486  27137  139.33    0.249
+   0.107  27136   30.75    0.156  27136   44.59    0.375  27137  107.35    0.362
+All DefVehicle:
+   0.100  81409   28.62    0.161  81410   46.23    0.428  81411  122.68    0.311
+
+The Average Capacity Lost Due To Congestion is 29.9 Percent
+Of Total Capacity Which is 0.9 Vehicles
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        Retrieve               8.30 cp_Park              cp_Maq2              Empty          
+DefVehicle(2)        Move                 158.30 cp_Saisa             cp_Park              Empty          
+DefVehicle(3)        Idle                   3.14 cp_Park              cp_Park              Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle        56.58         158.30           3.14
+
+Statistics for Conveyor System "agv.conv"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+
+
+*** AutoMod 11.1 ***
+Model agv
+Statistics at Absolute Clock = 300:00:00:00.00, Relative Clock = 120:00:00:00.00
+CPU time: Absolute: 287.531 sec, Relative: 117.75 sec
+
+Statistics for Process System "agv"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00       --     1     1     -- 10368000.00         --
+P_P1                    7241     4     4.64       --     6     4     --    6649.39         --
+P_P2                   10860     6     5.66       --     7     4     --    5403.69         --
+P_P3                   18097     5     6.91       --    10     5     --    3960.85         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00 Infinite     1     1     -- 10368000.00         --
+P_P1                    7241     4     4.64 Infinite     6     4     --    6649.39         --
+P_P2                   10860     6     5.66 Infinite     7     4     --    5403.69         --
+P_P3                   18097     5     6.91 Infinite    10     5     --    3960.85         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                  36195    13    15.07 Infinite    20    10     --    4315.59         --
+QE                     36183     1     1.00        1     1     0  1.000     286.54    4029.14
+QF                     36183     0     0.00        1     1     0  0.000       0.00       0.00
+qE_Maq1                18093     1     0.92        1     1     0  0.915     524.50       0.00
+qE_Maq2                25328     0     0.49        1     1     0  0.486     198.82       0.00
+qE_Maq3                28947     1     0.56        1     1     0  0.556     199.06       0.00
+q1                      7237     0     0.01        1     1     0  0.010      15.00       0.00
+q2                     10854     0     0.02        1     1     0  0.016      15.00       0.00
+q3                     18092     0     0.03        1     1     0  0.026      15.00       0.00
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+r_Maquina1             18092     1     0.27        1     1     0  0.272     156.00       0.00     Up   ----      
+r_Maquina2             25328     0     0.32        1     1     0  0.325     132.86       0.00     Up   ----      
+r_Maquina3             28947     1     0.36        1     1     0  0.356     127.49       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              0
+stream_r_Maquina1_1  0
+stream_r_Maquina2_1  0
+stream_r_Maquina3_1  0
+stream_L_incial_1    0
+
+Statistics for Path Mover System "agv.agv1"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+caminho1              108549     0     0.49 Infinite     2     0     --      46.68         --
+caminho2              108549     0     0.21 Infinite     1     0     --      19.90         --
+caminho3                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho4              108548     0     0.21 Infinite     1     0     --      19.90         --
+caminho6              108549     0     0.05 Infinite     1     0     --       4.68         --
+caminho7                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho8                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho9              108548     0     0.05 Infinite     1     0     --       4.68         --
+caminho10             108551     3     2.15 Infinite     3     1     --     205.04         --
+caminho11             108549     0     0.05 Infinite     1     0     --       4.68         --
+caminho12             108548     0     0.05 Infinite     1     0     --       4.68         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+cp_Maq2               108548     0     0.15 Infinite     2     0     --      14.67         --
+cp_Maq3               108549     0     0.17 Infinite     2     0     --      15.77         --
+cp_Saisa              108549     0     0.18 Infinite     1     0     --      17.47         --
+cp_Entrada            108548     0     0.25 Infinite     1     0     --      24.03         --
+cp_Maq1               108548     0     0.18 Infinite     2     0     --      17.49         --
+cpStart                    0     0     0.00 Infinite     0     0     --       0.00         --
+cp_Park               108551     3     2.11 Infinite     3     0     --     201.61         --
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.091  36183   25.97    0.165  36183   47.39    0.424  36184  121.36    0.320
+   0.102  36183   29.15    0.163  36183   46.73    0.486  36183  139.32    0.249
+   0.107  36182   30.75    0.156  36182   44.59    0.375  36183  107.35    0.362
+All DefVehicle:
+   0.100 108548   28.62    0.161 108548   46.24    0.428 108550  122.68    0.311
+
+The Average Capacity Lost Due To Congestion is 29.9 Percent
+Of Total Capacity Which is 0.9 Vehicles
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        Move                  81.65 cp_Saisa             cp_Park              Empty          
+DefVehicle(2)        Move                 116.25 cp_Saisa             cp_Park              Empty          
+DefVehicle(3)        Idle                 139.99 cp_Park              cp_Park              Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle       112.63         139.99          81.65
+
+Statistics for Conveyor System "agv.conv"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+
+
+*** AutoMod 11.1 ***
+Model agv
+Statistics at Absolute Clock = 330:00:00:00.00, Relative Clock = 150:00:00:00.00
+CPU time: Absolute: 315.609 sec, Relative: 145.828 sec
+
+Statistics for Process System "agv"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00       --     1     1     -- 12960000.00         --
+P_P1                    9051     5     4.64       --     6     4     --    6649.53         --
+P_P2                   13575     6     5.66       --     7     4     --    5403.63         --
+P_P3                   22622     9     6.91       --    10     5     --    3960.72         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00 Infinite     1     1     -- 12960000.00         --
+P_P1                    9051     5     4.64 Infinite     6     4     --    6649.53         --
+P_P2                   13575     6     5.66 Infinite     7     4     --    5403.63         --
+P_P3                   22622     9     6.91 Infinite    10     5     --    3960.72         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                  45245    18    15.07 Infinite    20    10     --    4315.44         --
+QE                     45228     1     1.00        1     1     0  1.000     286.55    4029.00
+QF                     45228     0     0.00        1     1     0  0.000       0.00       0.00
+qE_Maq1                22616     1     0.92        1     1     0  0.915     524.51       0.00
+qE_Maq2                31659     0     0.49        1     1     0  0.486     198.82       0.00
+qE_Maq3                36183     1     0.56        1     1     0  0.556     199.07       0.00
+q1                      9046     0     0.01        1     1     0  0.010      15.00       0.00
+q2                     13569     0     0.02        1     1     0  0.016      15.00       0.00
+q3                     22613     0     0.03        1     1     0  0.026      15.00       0.00
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+r_Maquina1             22615     0     0.27        1     1     0  0.272     156.00       0.00     Up   ----      
+r_Maquina2             31659     0     0.32        1     1     0  0.325     132.86       0.00     Up   ----      
+r_Maquina3             36183     1     0.36        1     1     0  0.356     127.50       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              0
+stream_r_Maquina1_1  0
+stream_r_Maquina2_1  0
+stream_r_Maquina3_1  0
+stream_L_incial_1    0
+
+Statistics for Path Mover System "agv.agv1"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+caminho1              135684     1     0.49 Infinite     2     0     --      46.68         --
+caminho2              135683     0     0.21 Infinite     1     0     --      19.90         --
+caminho3                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho4              135684     1     0.21 Infinite     1     0     --      19.90         --
+caminho6              135683     0     0.05 Infinite     1     0     --       4.68         --
+caminho7                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho8                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho9              135683     0     0.05 Infinite     1     0     --       4.68         --
+caminho10             135685     1     2.15 Infinite     3     1     --     205.05         --
+caminho11             135683     0     0.05 Infinite     1     0     --       4.68         --
+caminho12             135684     0     0.05 Infinite     1     0     --       4.68         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+cp_Maq2               135683     0     0.15 Infinite     2     0     --      14.67         --
+cp_Maq3               135684     0     0.17 Infinite     2     0     --      15.77         --
+cp_Saisa              135684     1     0.18 Infinite     1     0     --      17.47         --
+cp_Entrada            135684     1     0.25 Infinite     1     0     --      24.03         --
+cp_Maq1               135683     0     0.18 Infinite     2     0     --      17.49         --
+cpStart                    0     0     0.00 Infinite     0     0     --       0.00         --
+cp_Park               135685     1     2.11 Infinite     3     0     --     201.61         --
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.091  45228   25.97    0.165  45228   47.39    0.424  45229  121.36    0.320
+   0.102  45228   29.15    0.163  45228   46.73    0.486  45228  139.33    0.249
+   0.107  45227   30.75    0.156  45228   44.59    0.375  45228  107.35    0.362
+All DefVehicle:
+   0.100 135683   28.62    0.161 135684   46.23    0.428 135685  122.68    0.311
+
+The Average Capacity Lost Due To Congestion is 29.9 Percent
+Of Total Capacity Which is 0.9 Vehicles
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        Move                   2.77 cp_Maq3              cp_Park              Empty          
+DefVehicle(2)        Idle                  21.08 cp_Park              cp_Park              Empty          
+DefVehicle(3)        Retrieve Pickup        6.21 cp_Entrada           cp_Entrada           Load 99504 (L_p3)
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle        10.02          21.08           2.77
+
+Statistics for Conveyor System "agv.conv"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+
+
+*** AutoMod 11.1 ***
+Model agv
+Statistics at Absolute Clock = 360:00:00:00.00, Relative Clock = 180:00:00:00.00
+CPU time: Absolute: 343.781 sec, Relative: 174 sec
+
+Statistics for Process System "agv"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00       --     1     1     -- 15552000.00         --
+P_P1                   10859     4     4.64       --     6     4     --    6650.92         --
+P_P2                   16287     5     5.66       --     7     4     --    5404.69         --
+P_P3                   27142     5     6.91       --    10     5     --    3961.37         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00 Infinite     1     1     -- 15552000.00         --
+P_P1                   10859     4     4.64 Infinite     6     4     --    6650.92         --
+P_P2                   16287     5     5.66 Infinite     7     4     --    5404.69         --
+P_P3                   27142     5     6.91 Infinite    10     5     --    3961.37         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                  54285    12    15.07 Infinite    20    10     --    4316.19         --
+QE                     54274     1     1.00        1     1     0  1.000     286.55    4029.70
+QF                     54274     0     0.00        1     1     0  0.000       0.00       0.00
+qE_Maq1                27139     1     0.92        1     1     0  0.915     524.51       0.00
+qE_Maq2                37991     0     0.49        1     1     0  0.486     198.82       0.00
+qE_Maq3                43420     1     0.56        1     1     0  0.556     199.06       0.00
+q1                     10855     0     0.01        1     1     0  0.010      15.00       0.00
+q2                     16282     0     0.02        1     1     0  0.016      15.00       0.00
+q3                     27137     0     0.03        1     1     0  0.026      15.00       0.00
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+r_Maquina1             27138     1     0.27        1     1     0  0.272     156.00       0.00     Up   ----      
+r_Maquina2             37991     0     0.32        1     1     0  0.325     132.86       0.00     Up   ----      
+r_Maquina3             43420     1     0.36        1     1     0  0.356     127.50       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              0
+stream_r_Maquina1_1  0
+stream_r_Maquina2_1  0
+stream_r_Maquina3_1  0
+stream_L_incial_1    0
+
+Statistics for Path Mover System "agv.agv1"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+caminho1              162822     0     0.49 Infinite     2     0     --      46.68         --
+caminho2              162822     0     0.21 Infinite     1     0     --      19.90         --
+caminho3                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho4              162821     0     0.21 Infinite     1     0     --      19.90         --
+caminho6              162822     0     0.05 Infinite     1     0     --       4.68         --
+caminho7                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho8                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho9              162821     0     0.05 Infinite     1     0     --       4.68         --
+caminho10             162824     3     2.15 Infinite     3     1     --     205.04         --
+caminho11             162822     0     0.05 Infinite     1     0     --       4.68         --
+caminho12             162821     0     0.05 Infinite     1     0     --       4.68         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+cp_Maq2               162821     0     0.15 Infinite     2     0     --      14.67         --
+cp_Maq3               162822     0     0.17 Infinite     2     0     --      15.77         --
+cp_Saisa              162822     0     0.18 Infinite     1     0     --      17.47         --
+cp_Entrada            162821     0     0.25 Infinite     1     0     --      24.03         --
+cp_Maq1               162821     0     0.18 Infinite     2     0     --      17.49         --
+cpStart                    0     0     0.00 Infinite     0     0     --       0.00         --
+cp_Park               162824     3     2.11 Infinite     3     0     --     201.61         --
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.091  54274   25.97    0.165  54274   47.39    0.424  54275  121.36    0.320
+   0.102  54274   29.15    0.163  54274   46.73    0.486  54274  139.32    0.249
+   0.107  54273   30.75    0.156  54273   44.59    0.375  54274  107.35    0.362
+All DefVehicle:
+   0.100 162821   28.62    0.161 162821   46.24    0.428 162823  122.68    0.311
+
+The Average Capacity Lost Due To Congestion is 29.9 Percent
+Of Total Capacity Which is 0.9 Vehicles
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        Move                  36.06 cp_Saisa             cp_Park              Empty          
+DefVehicle(2)        Move                  70.66 cp_Saisa             cp_Park              Empty          
+DefVehicle(3)        Idle                  94.40 cp_Park              cp_Park              Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle        67.04          94.40          36.06
+
+Statistics for Conveyor System "agv.conv"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+
+
+*** AutoMod 11.1 ***
+Model agv
+Statistics at Absolute Clock = 360:15:00:00.00, Relative Clock = 180:15:00:00.00
+CPU time: Absolute: 344.359 sec, Relative: 174.578 sec
+
+Statistics for Process System "agv"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00       --     1     1     -- 15606000.00         --
+P_P1                   10897     4     4.64       --     6     4     --    6650.77         --
+P_P2                   16344     6     5.66       --     7     4     --    5404.54         --
+P_P3                   27237     5     6.91       --    10     5     --    3961.29         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_configuracao             1     1     1.00 Infinite     1     1     -- 15606000.00         --
+P_P1                   10897     4     4.64 Infinite     6     4     --    6650.77         --
+P_P2                   16344     6     5.66 Infinite     7     4     --    5404.54         --
+P_P3                   27237     5     6.91 Infinite    10     5     --    3961.29         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                  54475    13    15.07 Infinite    20    10     --    4316.09         --
+QE                     54463     1     1.00        1     1     0  1.000     286.54    4029.61
+QF                     54463     0     0.00        1     1     0  0.000       0.00       0.00
+qE_Maq1                27232     0     0.92        1     1     0  0.915     524.53       0.00
+qE_Maq2                38124     0     0.49        1     1     0  0.486     198.82       0.00
+qE_Maq3                43571     1     0.56        1     1     0  0.556     199.06       0.00
+q1                     10893     0     0.01        1     1     0  0.010      15.00       0.00
+q2                     16338     0     0.02        1     1     0  0.016      15.00       0.00
+q3                     27232     0     0.03        1     1     0  0.026      15.00       0.00
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+r_Maquina1             27231     0     0.27        1     1     0  0.272     156.00       0.00     Up   ----      
+r_Maquina2             38124     0     0.32        1     1     0  0.325     132.86       0.00     Up   ----      
+r_Maquina3             43571     1     0.36        1     1     0  0.356     127.49       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              0
+stream_r_Maquina1_1  0
+stream_r_Maquina2_1  0
+stream_r_Maquina3_1  0
+stream_L_incial_1    0
+
+Statistics for Path Mover System "agv.agv1"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+caminho1              163388     0     0.49 Infinite     2     0     --      46.68         --
+caminho2              163388     1     0.21 Infinite     1     0     --      19.90         --
+caminho3                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho4              163388     1     0.21 Infinite     1     0     --      19.90         --
+caminho6              163388     0     0.05 Infinite     1     0     --       4.68         --
+caminho7                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho8                   0     0     0.00 Infinite     0     0     --       0.00         --
+caminho9              163388     1     0.05 Infinite     1     0     --       4.68         --
+caminho10             163389     1     2.15 Infinite     3     1     --     205.04         --
+caminho11             163387     0     0.05 Infinite     1     0     --       4.68         --
+caminho12             163388     0     0.05 Infinite     1     0     --       4.68         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+cp_Maq2               163387     0     0.15 Infinite     2     0     --      14.67         --
+cp_Maq3               163388     0     0.17 Infinite     2     0     --      15.77         --
+cp_Saisa              163388     1     0.18 Infinite     1     0     --      17.47         --
+cp_Entrada            163388     0     0.25 Infinite     1     0     --      24.03         --
+cp_Maq1               163388     1     0.18 Infinite     2     0     --      17.49         --
+cpStart                    0     0     0.00 Infinite     0     0     --       0.00         --
+cp_Park               163390     2     2.11 Infinite     3     0     --     201.61         --
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.091  54463   25.97    0.165  54463   47.39    0.424  54463  121.36    0.320
+   0.102  54463   29.15    0.163  54463   46.73    0.486  54463  139.32    0.249
+   0.107  54462   30.75    0.156  54462   44.59    0.375  54463  107.35    0.362
+All DefVehicle:
+   0.100 163388   28.62    0.161 163388   46.24    0.428 163389  122.68    0.311
+
+The Average Capacity Lost Due To Congestion is 29.9 Percent
+Of Total Capacity Which is 0.9 Vehicles
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        Deliver                4.75 cp_Entrada           cp_Maq1              Load 108738 (L_p2)
+DefVehicle(2)        Move                  10.88 cp_Maq3              cp_Park              Empty          
+DefVehicle(3)        Idle                  34.62 cp_Park              cp_Park              Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle        16.75          34.62           4.75
+
+Statistics for Conveyor System "agv.conv"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+
+

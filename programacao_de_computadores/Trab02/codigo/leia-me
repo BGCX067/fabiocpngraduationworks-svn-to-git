@@ -1,0 +1,5 @@
+compila -> compila o código corrente.
+exemplo -> executável exemplo do programa.
+main.cpp -> código do exemplo
+quaternion.cpp -> implementação da classe
+quaternion.h   -> definição da classe
